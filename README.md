@@ -26,15 +26,16 @@ pnpm build
 pnpm start
 ```
 
-En production l’app est sur [https://evaluations.espaceforma.be](https://evaluations.espaceforma.be). Le site vitrine redirige `/quiz1a`, `/quiz1b`, `/quiz2`, `/evaluation-ts` et `/evaluations` vers cette origine (`EVALUATIONS_ORIGIN`, défaut `https://evaluations.espaceforma.be`).
+En production l’app est sur [https://evaluations.espaceforma.be](https://evaluations.espaceforma.be). Le site vitrine redirige `/quiz1a`, `/quiz1b`, `/quiz1c`, `/quiz2`, `/evaluation-ts` et `/evaluations` vers cette origine (`EVALUATIONS_ORIGIN`, défaut `https://evaluations.espaceforma.be`).
 
 Pages :
 
 - `/` — choix entre quizz informatiques et évaluation de formation
-- `/quizz-informatiques` — quiz 1A, 1B et 2
+- `/quizz-informatiques` — quiz 1A, 1B, 1C et 2
 - `/evaluation-de-formation` — évaluations de module
 - `/quiz1a` → `/quiz-1a`
 - `/quiz1b` → `/quiz-1b`
+- `/quiz1c` → `/quiz-1c`
 - `/quiz2` → `/quiz-2`
 - `/evaluation-ts` → `/titres-services`
 - `/evaluations` → `/`

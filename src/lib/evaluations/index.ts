@@ -2,12 +2,13 @@ import type { EvaluationAnswers, EvaluationForm, EvaluationQuestion } from './ty
 import { formationEval } from './formation'
 import { quiz1a } from './quiz1a'
 import { quiz1b } from './quiz1b'
+import { quiz1c } from './quiz1c'
 import { quiz2 } from './quiz2'
 import { titresServicesEval } from './titresServices'
 
 export const MAX_COURSE_TITLE_LENGTH = 200
 
-export const evaluationForms: EvaluationForm[] = [quiz1a, quiz1b, quiz2, formationEval, titresServicesEval]
+export const evaluationForms: EvaluationForm[] = [quiz1a, quiz1b, quiz1c, quiz2, formationEval, titresServicesEval]
 
 export const quizForms = evaluationForms.filter((form) => form.kind === 'quiz')
 export const courseEvalForms = evaluationForms.filter((form) => form.kind === 'course-eval')
@@ -108,5 +109,5 @@ export function scoreQuiz(form: EvaluationForm, answers: EvaluationAnswers): { c
   return { correct, total: scored.length }
 }
 
-export { formationEval, quiz1a, quiz1b, quiz2, titresServicesEval }
+export { formationEval, quiz1a, quiz1b, quiz1c, quiz2, titresServicesEval }
 export type { EvaluationAnswers, EvaluationForm, EvaluationKind, EvaluationQuestion } from './types'

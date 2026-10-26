@@ -6,6 +6,7 @@ const nextConfig = {
       { source: '/evaluations/:slug', destination: '/:slug', permanent: false },
       { source: '/quiz1a', destination: '/quiz-1a', permanent: true },
       { source: '/quiz1b', destination: '/quiz-1b', permanent: true },
+      { source: '/quiz1c', destination: '/quiz-1c', permanent: true },
       { source: '/quiz2', destination: '/quiz-2', permanent: true },
       { source: '/evaluation-ts', destination: '/titres-services', permanent: true },
     ]

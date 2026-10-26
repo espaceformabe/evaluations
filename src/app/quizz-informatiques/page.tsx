@@ -4,7 +4,7 @@ import { EvaluationFormList } from '../EvaluationFormList'
 
 export const metadata: Metadata = {
   title: 'Quizz informatiques',
-  description: 'Quiz des niveaux 1A, 1B et 2 pour vérifier les acquis en informatique.',
+  description: 'Quiz des niveaux 1A, 1B, 1C et 2 pour vérifier les acquis en informatique.',
   robots: { index: false, follow: false },
 }
 
