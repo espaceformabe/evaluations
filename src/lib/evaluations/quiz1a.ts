@@ -168,7 +168,7 @@ export const quiz1a: EvaluationForm = {
       id: 'q18',
       type: 'radio',
       prompt: 'Où peut-on ranger des fichiers ?',
-      imageSrc: '/assets/evaluations/quiz-2/q5.png',
+      imageSrc: '/assets/evaluations/quiz-1b/folder.png',
       imageAlt: 'Dossier',
       options: ['Dans un dossier', 'Dans la souris', 'Dans le câble'],
       correct: ['Dans un dossier'],

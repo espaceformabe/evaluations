@@ -13,7 +13,7 @@ const categories = [
   {
     href: '/quizz-informatiques',
     title: 'Quizz informatiques',
-    description: 'Quiz des niveaux 1A, 1B, 1C et 2 pour vérifier les acquis en informatique.',
+    description: 'Quiz des niveaux 1A, 1B et 1C pour vérifier les acquis en informatique.',
     countLabel: `${quizForms.length} quizz`,
     heroImage: quizForms[0]?.heroImage ?? '/assets/services/perfectionnement/office.jpg',
   },
