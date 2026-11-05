@@ -154,24 +154,6 @@ export const quiz1b: EvaluationForm = {
     {
       id: 'q16',
       type: 'radio',
-      prompt: 'Dans Word, comment mettre un titre en gras ?',
-      imageSrc: '/assets/evaluations/quiz-1a/q6.png',
-      imageAlt: 'Bouton Gras dans Word',
-      options: ['Sélectionner le titre, puis cliquer sur G', 'Cliquer sur la corbeille', 'Fermer Word'],
-      correct: ['Sélectionner le titre, puis cliquer sur G'],
-    },
-    {
-      id: 'q17',
-      type: 'radio',
-      prompt: 'Comment garder les changements d’un document ?',
-      imageSrc: '/assets/evaluations/quiz-1a/q17.png',
-      imageAlt: 'Bouton Enregistrer dans Word',
-      options: ['Cliquer sur Enregistrer', 'Fermer sans enregistrer', 'Éteindre le PC'],
-      correct: ['Cliquer sur Enregistrer'],
-    },
-    {
-      id: 'q18',
-      type: 'radio',
       prompt: 'Vous voulez imprimer un document. Que choisir ?',
       imageSrc: '/assets/evaluations/quiz-1a/printer.jpg',
       imageAlt: 'Imprimante',
@@ -179,7 +161,7 @@ export const quiz1b: EvaluationForm = {
       correct: ['Fichier, puis Imprimer'],
     },
     {
-      id: 'q19',
+      id: 'q17',
       type: 'radio',
       prompt: 'Vous voulez retrouver un mot dans un texte. Quelles touches utiliser ?',
       imageSrc: '/assets/evaluations/quiz-1a/q4.png',
@@ -188,7 +170,7 @@ export const quiz1b: EvaluationForm = {
       correct: ['Ctrl + F'],
     },
     {
-      id: 'q20',
+      id: 'q18',
       type: 'radio',
       prompt: 'Que veut dire « PDF » dans une liste de fichiers ?',
       imageSrc: '/assets/evaluations/quiz-1b/pdf.png',
@@ -197,7 +179,7 @@ export const quiz1b: EvaluationForm = {
       correct: ['Un format de document'],
     },
     {
-      id: 'q21',
+      id: 'q19',
       type: 'radio',
       prompt: 'Pour ouvrir un site, où écrire son adresse ?',
       imageSrc: '/assets/evaluations/quiz-1b/address-bar.png',
@@ -206,7 +188,7 @@ export const quiz1b: EvaluationForm = {
       correct: ['Dans la barre d’adresse'],
     },
     {
-      id: 'q22',
+      id: 'q20',
       type: 'radio',
       prompt: 'Vous avez fermé un onglet par erreur. Que pouvez-vous faire ?',
       imageSrc: '/assets/evaluations/quiz-1b/browser.png',
@@ -215,7 +197,7 @@ export const quiz1b: EvaluationForm = {
       correct: ['Ouvrir à nouveau la page'],
     },
     {
-      id: 'q23',
+      id: 'q21',
       type: 'radio',
       prompt: 'Que signifie le symbole Wi-Fi ?',
       imageSrc: '/assets/evaluations/quiz-1a/wifi.png',
@@ -224,7 +206,7 @@ export const quiz1b: EvaluationForm = {
       correct: ['Une connexion réseau sans fil'],
     },
     {
-      id: 'q24',
+      id: 'q22',
       type: 'radio',
       prompt: 'Un site demande votre mot de passe par un lien étrange. Que faire ?',
       imageSrc: '/assets/evaluations/quiz-1b/q9.png',
@@ -237,7 +219,7 @@ export const quiz1b: EvaluationForm = {
       correct: ['Ne pas cliquer et vérifier le site'],
     },
     {
-      id: 'q25',
+      id: 'q23',
       type: 'radio',
       prompt: 'Pour quitter votre compte sur un PC partagé, que faire ?',
       imageSrc: '/assets/evaluations/quiz-1b/logout.png',

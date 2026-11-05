@@ -176,24 +176,6 @@ export const quiz1a: EvaluationForm = {
     {
       id: 'q19',
       type: 'radio',
-      prompt: 'Pour garder un texte, je clique sur…',
-      imageSrc: '/assets/evaluations/quiz-1a/q17.png',
-      imageAlt: 'Bouton Enregistrer dans Word',
-      options: ['Enregistrer', 'Supprimer', 'Fermer'],
-      correct: ['Enregistrer'],
-    },
-    {
-      id: 'q20',
-      type: 'radio',
-      prompt: 'Quel programme sert à écrire une lettre ?',
-      imageSrc: '/assets/evaluations/quiz-1a/q9.png',
-      imageAlt: 'Microsoft Word',
-      options: ['Word', 'Calculatrice', 'Photos'],
-      correct: ['Word'],
-    },
-    {
-      id: 'q21',
-      type: 'radio',
       prompt: 'Où vont souvent les fichiers supprimés ?',
       imageSrc: '/assets/evaluations/quiz-1a/recycle.png',
       imageAlt: 'Corbeille',
@@ -201,7 +183,7 @@ export const quiz1a: EvaluationForm = {
       correct: ['Corbeille'],
     },
     {
-      id: 'q22',
+      id: 'q20',
       type: 'radio',
       prompt: 'Quel programme ouvre les sites Internet ?',
       imageSrc: '/assets/evaluations/quiz-1a/q13.png',
@@ -210,7 +192,7 @@ export const quiz1a: EvaluationForm = {
       correct: ['Chrome'],
     },
     {
-      id: 'q23',
+      id: 'q21',
       type: 'radio',
       prompt: 'À quoi sert le Wi-Fi ?',
       imageSrc: '/assets/evaluations/quiz-1a/wifi.png',
@@ -219,7 +201,7 @@ export const quiz1a: EvaluationForm = {
       correct: ['À se connecter à un réseau'],
     },
     {
-      id: 'q24',
+      id: 'q22',
       type: 'radio',
       prompt: 'Que veut dire « télécharger » ?',
       imageSrc: '/assets/evaluations/quiz-1a/download.png',
@@ -228,7 +210,7 @@ export const quiz1a: EvaluationForm = {
       correct: ['Garder un fichier sur le PC'],
     },
     {
-      id: 'q25',
+      id: 'q23',
       type: 'radio',
       prompt: 'Un email demande mon mot de passe. Je fais quoi ?',
       imageSrc: '/assets/evaluations/quiz-1a/q22.png',
